@@ -67,7 +67,7 @@ public class TransferenceService {
             percentage = 0.017;
             applyFee(percentage, transference);
         }else{
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Error, the date of schedulling is not valid");
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Error, the date of scheduling is not valid");
         }
         return transference;
     }
