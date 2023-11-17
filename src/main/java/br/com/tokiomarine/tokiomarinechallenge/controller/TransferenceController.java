@@ -1,5 +1,6 @@
 package br.com.tokiomarine.tokiomarinechallenge.controller;
 
+import br.com.tokiomarine.tokiomarinechallenge.dto.TransferenceDTO;
 import br.com.tokiomarine.tokiomarinechallenge.entity.Transference;
 import br.com.tokiomarine.tokiomarinechallenge.service.TransferenceService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +19,8 @@ public class TransferenceController {
     private TransferenceService transferenceService;
 
     @PostMapping
-    public Transference save(@RequestBody Transference transference) {
-        transference = transferenceService.calculateDaysOfTransference(transference);
+    public Transference save(@RequestBody TransferenceDTO transferenceDTO) {
+        Transference transference = transferenceService.calculateDaysOfTransference(transferenceDTO);
         return transferenceService.save(transference);
     }
 

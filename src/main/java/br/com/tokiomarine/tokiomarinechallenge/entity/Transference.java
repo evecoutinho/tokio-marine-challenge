@@ -21,6 +21,6 @@ public class Transference {
     private String targetAccount;
     private Double transferenceValue;
     private Double fee;
-    private LocalDate transferenceDate = LocalDate.now();
+    private LocalDate transferenceDate;
     private LocalDate schedulingDate;
 }
