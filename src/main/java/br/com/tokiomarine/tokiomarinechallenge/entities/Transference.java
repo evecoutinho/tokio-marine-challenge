@@ -15,14 +15,14 @@ import java.time.LocalDate;
 @Data
 @Getter
 @Setter
-public class Transferencia {
+public class Transference {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String contaOrigem;
-    private String contaDestino;
-    private BigDecimal valor;
-    private BigDecimal taxa;
-    private LocalDate dataTransferencia;
-    private LocalDate dataAgendamento;
+    private String originAccount;
+    private String targetAccount;
+    private BigDecimal transferenceValue;
+    private BigDecimal tax;
+    private LocalDate transferenceDate = LocalDate.now();
+    private LocalDate schedulingDate;
 }
