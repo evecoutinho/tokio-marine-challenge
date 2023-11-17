@@ -8,7 +8,11 @@ A aplicação é simples, optei por utilizar Model Mapper para facilitar a conve
 
 Como extras adicionei o Swagger, para facilitar testes e também para facilitar no desenvolvimento. 
 
-Para rodar a API basta rodar a aplicar com mvn spring-boot:run, fazer a requisição para seu localhost apontando para a porta 8080, como seguinte exemplo no POSTMAN: 
+# Como testar
+
+mvn spring-boot:run 
+
+faça a requisição para seu localhost apontando para a porta 8080, como seguinte exemplo abaixo no POSTMAN: 
 
 ![image](https://github.com/evecoutinho/tokio-marine-challenge/assets/60928326/d0080341-d2e8-48bd-9a2e-a5e9c7898b4f)
 
