@@ -5,7 +5,9 @@ import br.com.tokiomarine.tokiomarinechallenge.entity.Transference;
 import br.com.tokiomarine.tokiomarinechallenge.repository.TransferenceRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
@@ -64,6 +66,8 @@ public class TransferenceService {
         } else if (days <= 50) {
             percentage = 0.017;
             applyFee(percentage, transference);
+        }else{
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Error, the date of schedulling is not valid");
         }
         return transference;
     }
