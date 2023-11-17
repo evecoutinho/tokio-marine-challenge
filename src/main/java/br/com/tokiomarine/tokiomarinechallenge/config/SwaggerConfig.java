@@ -1,4 +1,4 @@
-package br.com.tokiomarine.tokiomarinechallenge.configurations;
+package br.com.tokiomarine.tokiomarinechallenge.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,3 +20,6 @@ public class SwaggerConfig {
                 .build();
     }
 }
+
+
+
