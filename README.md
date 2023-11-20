@@ -37,7 +37,6 @@ Faça a requisição para seu localhost apontando para a porta 8080, como seguin
 }
 ~~~
 
-![image](https://github.com/evecoutinho/tokio-marine-challenge/assets/60928326/d0080341-d2e8-48bd-9a2e-a5e9c7898b4f)
 
 
 
