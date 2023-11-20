@@ -20,14 +20,14 @@ public class TransferenceController {
     @Autowired
     private TransferenceService transferenceService;
 
-    @PostMapping
+    @PostMapping("/scheduling")
     public ResponseEntity<Transference> save(@RequestBody TransferenceDTO transferenceDTO) {
         Transference transference = transferenceService.calculateDaysOfTransference(transferenceDTO);
         transferenceService.save(transference);
         return ResponseEntity.status(HttpStatus.CREATED).body(transference);
     }
 
-    @GetMapping
+    @GetMapping("/statement")
     public List<Transference> findAll() {
         return transferenceService.findAll();
     }
