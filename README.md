@@ -8,7 +8,7 @@ A aplicação é simples, optei por utilizar Model Mapper para facilitar a conve
 
 Há pontos que eu gostaria de melhorar tendo disponibilidade, tais como:  Adicionar um DTO personalizado para o retorno do POST e também do GET, para remover informações como o id e alguma outra informação que eu considere mais sigilosa. 
 
-Também gostaria de adicionar algumas validações de dados extras no DTO e na Entidade, para fins de resolução do desafio, adicionei apenas as solicitadas, mas deixo a observação aqui.
+Também gostaria de adicionar algumas validações de dados extras no DTO e na Entidade, para fins de resolução do desafio, adicionei apenas as solicitadas, adicionar autenticação, e refatorar alguns pontos especificos da regra. 
 
 Também criaria alguns testes unitários, com foco na classe de serviço para garantir o cumprimento de regra de negócio da forma como é pedida, validando o calculo das taxas e ranges de dias, conforme tabela do desafio, isso irá garantir que alterações no core do código, se afetarem o funcionamento, quebrem o build e não deixem que a aplicação suba com erros tão simples. 
 
