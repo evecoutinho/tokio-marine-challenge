@@ -7,12 +7,14 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
 @Entity
 @Data
-@Table(name = "transferences")
+@NoArgsConstructor
+@Table(name = "transference")
 public class Transference {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
