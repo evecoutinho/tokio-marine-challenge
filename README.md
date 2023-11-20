@@ -37,10 +37,10 @@ Faça a requisição para seu localhost apontando para a porta 8080, como seguin
 }
 ~~~
 
-Request
+Request:
 ![image](https://github.com/evecoutinho/tokio-marine-challenge/assets/60928326/d0080341-d2e8-48bd-9a2e-a5e9c7898b4f)
 
-Response
+Response:
 ![image](https://github.com/evecoutinho/tokio-marine-challenge/assets/60928326/ac4d8e5a-49a8-4886-877d-16aa22da293c)
 
 
