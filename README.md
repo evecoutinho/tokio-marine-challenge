@@ -12,9 +12,9 @@ Também gostaria de adicionar algumas validações de dados extras no DTO e na E
 
 Também criaria alguns testes unitários, com foco na classe de serviço para garantir o cumprimento de regra de negócio da forma como é pedida, validando o calculo das taxas e ranges de dias, conforme tabela do desafio, isso irá garantir que alterações no core do código, se afetarem o funcionamento, quebrem o build e não deixem que a aplicação suba com erros tão simples. 
 
-Em relação a resolução do desafio em si, tomei as seguintes escolhas, eu não somei a taxa no valor total a ser transferido, mapeei a entidade com um campo chamado "fee" no qual eu realizo o calculo e seto o valor de taxa para aquela transfência de forma separada, assim mantendo a transparência do que é o valor a ser transferido e a taxa sobre tal montante. 
+Em relação a resolução do desafio em si, tomei as seguintes escolhas: Não somei a taxa da transferência no valor total da transação, mapeei a entidade com um campo chamado "fee" no qual eu realizo o calculo e seto o valor de taxa para aquela transfência de forma separada na persistência, assim mantendo a transparência do que é o valor a ser transferido e a taxa sobre tal montante. 
 
-Qualqer dúvidas sobre a resolução do problema, dicas de pontos a melhoras, questionamentos das decisões que tomei, estou completamento aberto a bater um papo com vocês
+Qualqer dúvidas sobre a resolução do problema, dicas e pontos a melhoras, questionamentos das decisões que tomei, estou completamento aberto a bater um papo com vocês
 
 # Como testar
 
