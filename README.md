@@ -37,7 +37,7 @@ Faça a requisição para seu localhost apontando para a porta 8080, use o JSON 
 }
 ~~~
 
-#Frontend 
+# Frontend 
 
 O frontend foi desenvolvido em vue.js no qual estudei durante essa semana, então ainda tenho conhecimento básico, o repositório é o seguinte: 
 
@@ -45,9 +45,13 @@ https://github.com/evecoutinho/vue-frontend
 
 O CrossOrigin no backend está configurado para receber chamadas do front, através da porta 8081, então se atente a isso ao rodar o app vue.
 
-#Mensagem ao time Tokio Marine
+O front infelizmente não foi finalizado totalmente e explico o motivo na mensagem abaixo (Peço sua gentileza em ler):
 
-Desenvolvi apenas uma tela que faz o get para a api, ou seja, seria o extrato pedido no desafio, infelizmente não pude terminar a tela de cadastro da transferencia, para realizar o agendamento, pois estou com um problema de energia e internet, após as fortes chuvas, agradeço da mesma forma aos avaliadores do time tokio marine, caso meu teste, seja considerado mesmo com esse detalhe faltante, estou dispoto a fazer parte do time, aprender ainda mais de vue além do que pude estudar em 1 dia, tempo o qual tive disponível sem os problemas mencioanados anteriormente, possuo bastante experiência no backend, e sei que ainda não demonstrei todo meu potencial, sei que posso colaborar ativamente com o time e aprender muito com vocês, de tudo que vi e ouvi sobre a tokio, espero realmente poder fazer parte dessa jornada no time de desenvolvimento com todos, obrigado!
+# Mensagem ao time Tokio Marine
+
+Desenvolvi apenas uma tela que faz o get para a api, ou seja, seria o extrato pedido no desafio, infelizmente não pude terminar a tela de cadastro da transferencia, para realizar o agendamento, pois estou com um problema de energia e internet, após as fortes chuvas que afetaram são paulo e aqui em Embu das artes, minha internet só voltou agora no domingo, e tenho nesses dias anteriores peregrinado, tentando fazer o máximo que consigo com a bateria do note, dados móveis, indo pra casa de colegas, mas acaba que é pouco produtivo trabalhar assim,  agradeço da mesma forma aos avaliadores do time tokio marine pela oportunidade, caso meu teste seja considerado mesmo, tanto o backend completo, como o front com esse detalhe faltante, estou dispoto a fazer parte do time, aprender ainda mais de vue além do que pude estudar em 1 dia, tempo o qual tive disponível sem os problemas mencioanados anteriormente, possuo bastante experiência no backend, e sei que ainda não demonstrei todo meu potencial, sei que posso colaborar ativamente com o time e aprender muito com vocês e também compartilhar muito conhecimento e experiências que obtive durante minha carreira até aqui.  
+
+De tudo que vi e ouvi sobre a tokio, espero realmente poder fazer parte dessa jornada no time de desenvolvimento com todos vocês, obrigado!
 
 Everton Coutinho
 Desenvolvedor Java e Kotlin
